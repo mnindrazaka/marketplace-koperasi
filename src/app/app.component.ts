@@ -10,6 +10,9 @@ export class AppComponent {
   beranda: Boolean;
 
   constructor(private _router: Router) {
-    this.beranda = this._router.url === '/';
+    setTimeout(() => {
+      this.beranda = this._router.url === '/';
+    });
   }
+
 }

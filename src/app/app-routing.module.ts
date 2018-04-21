@@ -5,7 +5,11 @@ import { BerandaComponent } from './beranda/beranda.component';
 const routes: Routes = [
   {
     path: '',
-    component: BerandaComponent
+    component: BerandaComponent,
+  },
+  {
+    path: 'about',
+    component: BerandaComponent,
   }
 ];
 
