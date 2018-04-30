@@ -1,1 +1,6 @@
 /* You can add global styles to this file, and also import other style files */
+@import './assets/vendors/onetech/styles/bootstrap4/bootstrap.min.css';
+@import './assets/vendors/onetech/plugins/fontawesome-free-5.0.1/css/fontawesome-all.css';
+@import './assets/vendors/onetech/plugins/OwlCarousel2-2.2.1/owl.carousel.css';
+@import './assets/vendors/onetech/plugins/OwlCarousel2-2.2.1/owl.theme.default.css';
+@import './assets/vendors/onetech/plugins/OwlCarousel2-2.2.1/animate.css';
