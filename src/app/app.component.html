@@ -52,7 +52,7 @@
           <!-- Logo -->
           <div class="col-lg-2 col-sm-3 col-3 order-1">
             <div class="logo_container">
-              <div class="logo"><a href="#">OneTech</a></div>
+              <div class="logo"><a href="#">Koperasi</a></div>
             </div>
           </div>
 
@@ -61,7 +61,7 @@
             <div class="header_search">
               <div class="header_search_content">
                 <div class="header_search_form_container">
-                  <form action="#" class="header_search_form clearfix">
+                  <form action="/produk" method="GET" class="header_search_form clearfix">
                     <input type="search" required="required" class="header_search_input" placeholder="Search for products...">
                     <div class="custom_dropdown">
                       <div class="custom_dropdown_list">
@@ -79,6 +79,7 @@
                     </div>
                     <button type="submit" class="header_search_button trans_300" value="Submit"><img src="assets/vendors/onetech/images/search.png" alt=""></button>
                   </form>
+                  <!-- <a class="header_search_button" routerLink="produk"><img src="assets/vendors/onetech/images/search.png" alt=""></a>                   -->
                 </div>
               </div>
             </div>
@@ -88,9 +89,9 @@
           <div class="col-lg-4 col-9 order-lg-3 order-2 text-lg-left text-right">
             <div class="wishlist_cart d-flex flex-row align-items-center justify-content-end">
               <div class="wishlist d-flex flex-row align-items-center justify-content-end">
-                <div class="wishlist_icon"><img src="assets/vendors/onetech/images/heart.png" alt=""></div>
+                <div class="wishlist_icon"><img src="assets/images/shop_icon2.png" alt=""></div>
                 <div class="wishlist_content">
-                  <div class="wishlist_text"><a href="#">Wishlist</a></div>
+                  <div class="wishlist_text"><a routerLink = "/usaha/1">Usaha</a></div>
                   <div class="wishlist_count">115</div>
                 </div>
               </div>
@@ -103,7 +104,7 @@
                     <div class="cart_count"><span>10</span></div>
                   </div>
                   <div class="cart_content">
-                    <div class="cart_text"><a href="#">Cart</a></div>
+                    <div class="cart_text"><a routerLink = "/keranjang/1">Cart</a></div>
                     <div class="cart_price">$85</div>
                   </div>
                 </div>
@@ -123,48 +124,11 @@
 
             <div class="main_nav_content d-flex flex-row">
 
-              <!-- Categories Menu -->
-
-              <div *ngIf="beranda" class="cat_menu_container">
-                <div class="cat_menu_title d-flex flex-row align-items-center justify-content-start">
-                  <div class="cat_burger"><span></span><span></span><span></span></div>
-                  <div class="cat_menu_text">categories</div>
-                </div>
-
-                <ul class="cat_menu">
-                  <li><a href="#">Computers & Laptops <i class="fas fa-chevron-right ml-auto"></i></a></li>
-                  <li><a href="#">Cameras & Photos<i class="fas fa-chevron-right"></i></a></li>
-                  <li class="hassubs">
-                    <a href="#">Hardware<i class="fas fa-chevron-right"></i></a>
-                    <ul>
-                      <li class="hassubs">
-                        <a href="#">Menu Item<i class="fas fa-chevron-right"></i></a>
-                        <ul>
-                          <li><a href="#">Menu Item<i class="fas fa-chevron-right"></i></a></li>
-                          <li><a href="#">Menu Item<i class="fas fa-chevron-right"></i></a></li>
-                          <li><a href="#">Menu Item<i class="fas fa-chevron-right"></i></a></li>
-                          <li><a href="#">Menu Item<i class="fas fa-chevron-right"></i></a></li>
-                        </ul>
-                      </li>
-                      <li><a href="#">Menu Item<i class="fas fa-chevron-right"></i></a></li>
-                      <li><a href="#">Menu Item<i class="fas fa-chevron-right"></i></a></li>
-                      <li><a href="#">Menu Item<i class="fas fa-chevron-right"></i></a></li>
-                    </ul>
-                  </li>
-                  <li><a href="#">Smartphones & Tablets<i class="fas fa-chevron-right"></i></a></li>
-                  <li><a href="#">TV & Audio<i class="fas fa-chevron-right"></i></a></li>
-                  <li><a href="#">Gadgets<i class="fas fa-chevron-right"></i></a></li>
-                  <li><a href="#">Car Electronics<i class="fas fa-chevron-right"></i></a></li>
-                  <li><a href="#">Video Games & Consoles<i class="fas fa-chevron-right"></i></a></li>
-                  <li><a href="#">Accessories<i class="fas fa-chevron-right"></i></a></li>
-                </ul>
-              </div>
-
               <!-- Main Nav Menu -->
 
               <div class="main_nav_menu ml-auto">
                 <ul class="standard_dropdown main_nav_dropdown">
-                  <li><a href="#">Home<i class="fas fa-chevron-down"></i></a></li>
+                  <li><a routerLink = "">Home<i class="fas fa-chevron-down"></i></a></li>
                   <li class="hassubs">
                     <a href="#">Super Deals<i class="fas fa-chevron-down"></i></a>
                     <ul>
@@ -265,7 +229,7 @@
                   </ul>
                 </li>
                 <li class="page_menu_item">
-                  <a href="#">Home<i class="fa fa-angle-down"></i></a>
+                  <a routerLink = "">Home<i class="fa fa-angle-down"></i></a>
                 </li>
                 <li class="page_menu_item has-children">
                   <a href="#">Super Deals<i class="fa fa-angle-down"></i></a>
@@ -322,31 +286,6 @@
   <!-- Route Component -->
   <router-outlet></router-outlet>
 
-
-  <!-- Newsletter -->
-  <div class="newsletter">
-    <div class="container">
-      <div class="row">
-        <div class="col">
-          <div class="newsletter_container d-flex flex-lg-row flex-column align-items-lg-center align-items-center justify-content-lg-start justify-content-center">
-            <div class="newsletter_title_container">
-              <div class="newsletter_icon"><img src="assets/vendors/onetech/images/send.png" alt=""></div>
-              <div class="newsletter_title">Sign up for Newsletter</div>
-              <div class="newsletter_text"><p>...and receive %20 coupon for first shopping.</p></div>
-            </div>
-            <div class="newsletter_content clearfix">
-              <form action="#" class="newsletter_form">
-                <input type="email" class="newsletter_input" required="required" placeholder="Enter your email address">
-                <button class="newsletter_button">Subscribe</button>
-              </form>
-              <div class="newsletter_unsubscribe_link"><a href="#">unsubscribe</a></div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-
   <!-- Footer -->
   <footer class="footer">
     <div class="container">
@@ -355,7 +294,7 @@
         <div class="col-lg-3 footer_col">
           <div class="footer_column footer_contact">
             <div class="logo_container">
-              <div class="logo"><a href="#">OneTech</a></div>
+              <div class="logo"><a href="#">Koperasi</a></div>
             </div>
             <div class="footer_title">Got Question? Call Us 24/7</div>
             <div class="footer_phone">+38 068 005 3570</div>

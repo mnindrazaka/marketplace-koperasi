@@ -31,51 +31,51 @@ const routes: Routes = [
     component: ProdukdetailComponent
   },
   {
-    path: 'keranjang',
+    path: 'keranjang/1',
     component: KeranjangComponent
   },
   {
-    path: 'konfirmasi',
+    path: 'konfirmasi/1',
     component: KonfirmasiComponent
   },
   {
-    path: 'usaha',
+    path: 'profilusaha/1',
     component: InformasiusahaComponent
   },
   {
-    path: 'profil',
+    path: 'profil/1',
     component: ProfilComponent
   },
   {
-    path: 'pembelian',
+    path: 'pembelian/1',
     component: PembelianComponent
   },
   {
-    path: 'ubahprofil',
+    path: 'ubahprofil/1',
     component: UbahprofilComponent
   },
   {
-    path: 'penjualan',
+    path: 'penjualan/1',
     component: PenjualanComponent
   },
   {
-    path: 'buatusaha',
+    path: 'buatusaha/1',
     component: BuatusahaComponent
   },
   {
-    path: 'produkusaha',
+    path: 'produkusaha/1',
     component: ProdukusahaComponent
   },
   {
-    path: 'ulasan',
+    path: 'ulasan/1',
     component: UlasanComponent
   },
   {
-    path: 'profilusaha',
+    path: 'usaha/1',
     component: ProfilusahaComponent
   },
   {
-    path: 'rekening',
+    path: 'rekening/1',
     component: RekeningComponent
   }
 ];

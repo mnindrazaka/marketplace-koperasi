@@ -11,6 +11,7 @@ export class AppComponent {
 
   constructor(private _router: Router) {
     setTimeout(() => {
+      console.log(this._router.url)
       this.beranda = this._router.url === '/';
     });
   }
