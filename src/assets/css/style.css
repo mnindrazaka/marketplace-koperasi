@@ -1,0 +1,12 @@
+.smallimage {
+    height: 115px;
+}
+
+.mediumimage{
+    height: 450px;
+}
+
+.AddtoCardText {
+    color: white;
+    text-decoration: none;
+}
