@@ -9,33 +9,17 @@
       <div class="container">
         <div class="row">
           <div class="col d-flex flex-row">
-            <div class="top_bar_contact_item"><div class="top_bar_icon"><img src="assets/vendors/onetech/images/phone.png" alt=""></div>+38 068 005 3570</div>
-            <div class="top_bar_contact_item"><div class="top_bar_icon"><img src="assets/vendors/onetech/images/mail.png" alt=""></div><a href="mailto:fastsales@gmail.com">fastsales@gmail.com</a></div>
             <div class="top_bar_content ml-auto">
-              <div class="top_bar_menu">
-                <ul class="standard_dropdown top_bar_dropdown">
-                  <li>
-                    <a href="#">English<i class="fas fa-chevron-down"></i></a>
-                    <ul>
-                      <li><a href="#">Italian</a></li>
-                      <li><a href="#">Spanish</a></li>
-                      <li><a href="#">Japanese</a></li>
-                    </ul>
-                  </li>
-                  <li>
-                    <a href="#">$ US dollar<i class="fas fa-chevron-down"></i></a>
-                    <ul>
-                      <li><a href="#">EUR Euro</a></li>
-                      <li><a href="#">GBP British Pound</a></li>
-                      <li><a href="#">JPY Japanese Yen</a></li>
-                    </ul>
-                  </li>
-                </ul>
-              </div>
               <div class="top_bar_user">
-                <div class="user_icon"><img src="assets/vendors/onetech/images/user.svg" alt=""></div>
-                <div><a href="#">Register</a></div>
-                <div><a href="#">Sign in</a></div>
+                <div class="user_icon">
+                  <img src="assets/vendors/onetech/images/user.svg" alt="">
+                </div>
+                <div>
+                  <a href="#">Register</a>
+                </div>
+                <div>
+                  <a href="#">Sign in</a>
+                </div>
               </div>
             </div>
           </div>
@@ -52,7 +36,9 @@
           <!-- Logo -->
           <div class="col-lg-2 col-sm-3 col-3 order-1">
             <div class="logo_container">
-              <div class="logo"><a href="" routerLink="/">Koperasi</a></div>
+              <div class="logo">
+                <a href="" routerLink="/">Koperasi</a>
+              </div>
             </div>
           </div>
 
@@ -62,22 +48,33 @@
               <div class="header_search_content">
                 <div class="header_search_form_container">
                   <form action="/produk" method="GET" class="header_search_form clearfix">
-                    <input type="search" required="required" class="header_search_input" placeholder="Search for products...">
+                    <input type="search" required="required" class="header_search_input" placeholder="Cari Produk...">
                     <div class="custom_dropdown">
                       <div class="custom_dropdown_list">
-                        <span class="custom_dropdown_placeholder clc">All Categories</span>
+                        <span class="custom_dropdown_placeholder clc">Semua Kategori</span>
                         <i class="fas fa-chevron-down"></i>
                         <ul class="custom_list clc">
-                          <li><a class="clc" href="#">All Categories</a></li>
-                          <li><a class="clc" href="#">Computers</a></li>
-                          <li><a class="clc" href="#">Laptops</a></li>
-                          <li><a class="clc" href="#">Cameras</a></li>
-                          <li><a class="clc" href="#">Hardware</a></li>
-                          <li><a class="clc" href="#">Smartphones</a></li>
+                          <li>
+                            <a class="clc" href="#">Semua Kategori</a>
+                          </li>
+                          <li>
+                            <a class="clc" href="#">Kategori 1</a>
+                          </li>
+                          <li>
+                            <a class="clc" href="#">Kategori 2</a>
+                          </li>
+                          <li>
+                            <a class="clc" href="#">Kategori 3</a>
+                          </li>
+                          <li>
+                            <a class="clc" href="#">Kategori 4</a>
+                          </li>
                         </ul>
                       </div>
                     </div>
-                    <button type="submit" class="header_search_button trans_300" value="Submit"><img src="assets/vendors/onetech/images/search.png" alt=""></button>
+                    <button type="submit" class="header_search_button trans_300" value="Submit">
+                      <img src="assets/vendors/onetech/images/search.png" alt="">
+                    </button>
                   </form>
                   <!-- <a class="header_search_button" routerLink="produk"><img src="assets/vendors/onetech/images/search.png" alt=""></a>                   -->
                 </div>
@@ -89,10 +86,13 @@
           <div class="col-lg-4 col-9 order-lg-3 order-2 text-lg-left text-right">
             <div class="wishlist_cart d-flex flex-row align-items-center justify-content-end">
               <div class="wishlist d-flex flex-row align-items-center justify-content-end">
-                <div class="wishlist_icon"><img src="assets/images/shop_icon2.png" alt=""></div>
+                <div class="wishlist_icon">
+                  <img src="assets/images/shop_icon2.png" alt="">
+                </div>
                 <div class="wishlist_content">
-                  <div class="wishlist_text"><a routerLink = "/usaha/1">Usaha</a></div>
-                  <div class="wishlist_count">115</div>
+                  <div class="wishlist_text">
+                    <a routerLink="/usaha/1">Usaha Saya</a>
+                  </div>
                 </div>
               </div>
 
@@ -101,11 +101,15 @@
                 <div class="cart_container d-flex flex-row align-items-center justify-content-end">
                   <div class="cart_icon">
                     <img src="assets/vendors/onetech/images/cart.png" alt="">
-                    <div class="cart_count"><span>10</span></div>
+                    <div class="cart_count">
+                      <span>10</span>
+                    </div>
                   </div>
                   <div class="cart_content">
-                    <div class="cart_text"><a routerLink = "/keranjang/1">Cart</a></div>
-                    <div class="cart_price">$85</div>
+                    <div class="cart_text">
+                      <a routerLink="/keranjang/1">Keranjang</a>
+                    </div>
+                    <div class="cart_price">Rp. 85.000</div>
                   </div>
                 </div>
               </div>
@@ -128,53 +132,26 @@
 
               <div class="main_nav_menu ml-auto">
                 <ul class="standard_dropdown main_nav_dropdown">
-                  <li><a routerLink = "">Home<i class="fas fa-chevron-down"></i></a></li>
-                  <li class="hassubs">
-                    <a href="#">Super Deals<i class="fas fa-chevron-down"></i></a>
-                    <ul>
-                      <li>
-                        <a href="#">Menu Item<i class="fas fa-chevron-down"></i></a>
-                        <ul>
-                          <li><a href="#">Menu Item<i class="fas fa-chevron-down"></i></a></li>
-                          <li><a href="#">Menu Item<i class="fas fa-chevron-down"></i></a></li>
-                          <li><a href="#">Menu Item<i class="fas fa-chevron-down"></i></a></li>
-                        </ul>
-                      </li>
-                      <li><a href="#">Menu Item<i class="fas fa-chevron-down"></i></a></li>
-                      <li><a href="#">Menu Item<i class="fas fa-chevron-down"></i></a></li>
-                      <li><a href="#">Menu Item<i class="fas fa-chevron-down"></i></a></li>
-                    </ul>
+                  <li>
+                    <a routerLink="">Beranda
+                      <i class="fas fa-chevron-down"></i>
+                    </a>
                   </li>
-                  <li class="hassubs">
-                    <a href="#">Featured Brands<i class="fas fa-chevron-down"></i></a>
-                    <ul>
-                      <li>
-                        <a href="#">Menu Item<i class="fas fa-chevron-down"></i></a>
-                        <ul>
-                          <li><a href="#">Menu Item<i class="fas fa-chevron-down"></i></a></li>
-                          <li><a href="#">Menu Item<i class="fas fa-chevron-down"></i></a></li>
-                          <li><a href="#">Menu Item<i class="fas fa-chevron-down"></i></a></li>
-                        </ul>
-                      </li>
-                      <li><a href="#">Menu Item<i class="fas fa-chevron-down"></i></a></li>
-                      <li><a href="#">Menu Item<i class="fas fa-chevron-down"></i></a></li>
-                      <li><a href="#">Menu Item<i class="fas fa-chevron-down"></i></a></li>
-                    </ul>
+                  <li>
+                    <a routerLink="/produk">Produk
+                      <i class="fas fa-chevron-down"></i>
+                    </a>
                   </li>
-                  <li class="hassubs">
-                    <a href="#">Pages<i class="fas fa-chevron-down"></i></a>
-                    <ul>
-                      <li><a href="shop.html">Shop<i class="fas fa-chevron-down"></i></a></li>
-                      <li><a href="product.html">Product<i class="fas fa-chevron-down"></i></a></li>
-                      <li><a href="blog.html">Blog<i class="fas fa-chevron-down"></i></a></li>
-                      <li><a href="blog_single.html">Blog Post<i class="fas fa-chevron-down"></i></a></li>
-                      <li><a href="regular.html">Regular Post<i class="fas fa-chevron-down"></i></a></li>
-                      <li><a href="cart.html">Cart<i class="fas fa-chevron-down"></i></a></li>
-                      <li><a href="contact.html">Contact<i class="fas fa-chevron-down"></i></a></li>
-                    </ul>
+                  <li>
+                    <a href="#">Usaha
+                      <i class="fas fa-chevron-down"></i>
+                    </a>
                   </li>
-                  <li><a href="blog.html">Blog<i class="fas fa-chevron-down"></i></a></li>
-                  <li><a href="contact.html">Contact<i class="fas fa-chevron-down"></i></a></li>
+                  <li>
+                    <a href="#">Tentang
+                      <i class="fas fa-chevron-down"></i>
+                    </a>
+                  </li>
                 </ul>
               </div>
 
@@ -184,7 +161,11 @@
                 <div class="menu_trigger d-flex flex-row align-items-center justify-content-end">
                   <div class="menu_burger">
                     <div class="menu_trigger_text">menu</div>
-                    <div class="cat_burger menu_burger_inner"><span></span><span></span><span></span></div>
+                    <div class="cat_burger menu_burger_inner">
+                      <span></span>
+                      <span></span>
+                      <span></span>
+                    </div>
                   </div>
                 </div>
               </div>
@@ -206,74 +187,200 @@
 
               <div class="page_menu_search">
                 <form action="#">
-                  <input type="search" required="required" class="page_menu_search_input" placeholder="Search for products...">
+                  <input type="search" required="required" class="page_menu_search_input" placeholder="Cari Produk">
                 </form>
               </div>
               <ul class="page_menu_nav">
                 <li class="page_menu_item has-children">
-                  <a href="#">Language<i class="fa fa-angle-down"></i></a>
+                  <a href="#">Language
+                    <i class="fa fa-angle-down"></i>
+                  </a>
                   <ul class="page_menu_selection">
-                    <li><a href="#">English<i class="fa fa-angle-down"></i></a></li>
-                    <li><a href="#">Italian<i class="fa fa-angle-down"></i></a></li>
-                    <li><a href="#">Spanish<i class="fa fa-angle-down"></i></a></li>
-                    <li><a href="#">Japanese<i class="fa fa-angle-down"></i></a></li>
+                    <li>
+                      <a href="#">English
+                        <i class="fa fa-angle-down"></i>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#">Italian
+                        <i class="fa fa-angle-down"></i>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#">Spanish
+                        <i class="fa fa-angle-down"></i>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#">Japanese
+                        <i class="fa fa-angle-down"></i>
+                      </a>
+                    </li>
                   </ul>
                 </li>
                 <li class="page_menu_item has-children">
-                  <a href="#">Currency<i class="fa fa-angle-down"></i></a>
+                  <a href="#">Currency
+                    <i class="fa fa-angle-down"></i>
+                  </a>
                   <ul class="page_menu_selection">
-                    <li><a href="#">US Dollar<i class="fa fa-angle-down"></i></a></li>
-                    <li><a href="#">EUR Euro<i class="fa fa-angle-down"></i></a></li>
-                    <li><a href="#">GBP British Pound<i class="fa fa-angle-down"></i></a></li>
-                    <li><a href="#">JPY Japanese Yen<i class="fa fa-angle-down"></i></a></li>
+                    <li>
+                      <a href="#">US Dollar
+                        <i class="fa fa-angle-down"></i>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#">EUR Euro
+                        <i class="fa fa-angle-down"></i>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#">GBP British Pound
+                        <i class="fa fa-angle-down"></i>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#">JPY Japanese Yen
+                        <i class="fa fa-angle-down"></i>
+                      </a>
+                    </li>
                   </ul>
                 </li>
                 <li class="page_menu_item">
-                  <a routerLink = "">Home<i class="fa fa-angle-down"></i></a>
+                  <a routerLink="">Home
+                    <i class="fa fa-angle-down"></i>
+                  </a>
                 </li>
                 <li class="page_menu_item has-children">
-                  <a href="#">Super Deals<i class="fa fa-angle-down"></i></a>
+                  <a href="#">Super Deals
+                    <i class="fa fa-angle-down"></i>
+                  </a>
                   <ul class="page_menu_selection">
-                    <li><a href="#">Super Deals<i class="fa fa-angle-down"></i></a></li>
+                    <li>
+                      <a href="#">Super Deals
+                        <i class="fa fa-angle-down"></i>
+                      </a>
+                    </li>
                     <li class="page_menu_item has-children">
-                      <a href="#">Menu Item<i class="fa fa-angle-down"></i></a>
+                      <a href="#">Menu Item
+                        <i class="fa fa-angle-down"></i>
+                      </a>
                       <ul class="page_menu_selection">
-                        <li><a href="#">Menu Item<i class="fa fa-angle-down"></i></a></li>
-                        <li><a href="#">Menu Item<i class="fa fa-angle-down"></i></a></li>
-                        <li><a href="#">Menu Item<i class="fa fa-angle-down"></i></a></li>
-                        <li><a href="#">Menu Item<i class="fa fa-angle-down"></i></a></li>
+                        <li>
+                          <a href="#">Menu Item
+                            <i class="fa fa-angle-down"></i>
+                          </a>
+                        </li>
+                        <li>
+                          <a href="#">Menu Item
+                            <i class="fa fa-angle-down"></i>
+                          </a>
+                        </li>
+                        <li>
+                          <a href="#">Menu Item
+                            <i class="fa fa-angle-down"></i>
+                          </a>
+                        </li>
+                        <li>
+                          <a href="#">Menu Item
+                            <i class="fa fa-angle-down"></i>
+                          </a>
+                        </li>
                       </ul>
                     </li>
-                    <li><a href="#">Menu Item<i class="fa fa-angle-down"></i></a></li>
-                    <li><a href="#">Menu Item<i class="fa fa-angle-down"></i></a></li>
-                    <li><a href="#">Menu Item<i class="fa fa-angle-down"></i></a></li>
+                    <li>
+                      <a href="#">Menu Item
+                        <i class="fa fa-angle-down"></i>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#">Menu Item
+                        <i class="fa fa-angle-down"></i>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#">Menu Item
+                        <i class="fa fa-angle-down"></i>
+                      </a>
+                    </li>
                   </ul>
                 </li>
                 <li class="page_menu_item has-children">
-                  <a href="#">Featured Brands<i class="fa fa-angle-down"></i></a>
+                  <a href="#">Featured Brands
+                    <i class="fa fa-angle-down"></i>
+                  </a>
                   <ul class="page_menu_selection">
-                    <li><a href="#">Featured Brands<i class="fa fa-angle-down"></i></a></li>
-                    <li><a href="#">Menu Item<i class="fa fa-angle-down"></i></a></li>
-                    <li><a href="#">Menu Item<i class="fa fa-angle-down"></i></a></li>
-                    <li><a href="#">Menu Item<i class="fa fa-angle-down"></i></a></li>
+                    <li>
+                      <a href="#">Featured Brands
+                        <i class="fa fa-angle-down"></i>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#">Menu Item
+                        <i class="fa fa-angle-down"></i>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#">Menu Item
+                        <i class="fa fa-angle-down"></i>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#">Menu Item
+                        <i class="fa fa-angle-down"></i>
+                      </a>
+                    </li>
                   </ul>
                 </li>
                 <li class="page_menu_item has-children">
-                  <a href="#">Trending Styles<i class="fa fa-angle-down"></i></a>
+                  <a href="#">Trending Styles
+                    <i class="fa fa-angle-down"></i>
+                  </a>
                   <ul class="page_menu_selection">
-                    <li><a href="#">Trending Styles<i class="fa fa-angle-down"></i></a></li>
-                    <li><a href="#">Menu Item<i class="fa fa-angle-down"></i></a></li>
-                    <li><a href="#">Menu Item<i class="fa fa-angle-down"></i></a></li>
-                    <li><a href="#">Menu Item<i class="fa fa-angle-down"></i></a></li>
+                    <li>
+                      <a href="#">Trending Styles
+                        <i class="fa fa-angle-down"></i>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#">Menu Item
+                        <i class="fa fa-angle-down"></i>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#">Menu Item
+                        <i class="fa fa-angle-down"></i>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#">Menu Item
+                        <i class="fa fa-angle-down"></i>
+                      </a>
+                    </li>
                   </ul>
                 </li>
-                <li class="page_menu_item"><a href="blog.html">blog<i class="fa fa-angle-down"></i></a></li>
-                <li class="page_menu_item"><a href="contact.html">contact<i class="fa fa-angle-down"></i></a></li>
+                <li class="page_menu_item">
+                  <a href="blog.html">blog
+                    <i class="fa fa-angle-down"></i>
+                  </a>
+                </li>
+                <li class="page_menu_item">
+                  <a href="contact.html">contact
+                    <i class="fa fa-angle-down"></i>
+                  </a>
+                </li>
               </ul>
 
               <div class="menu_contact">
-                <div class="menu_contact_item"><div class="menu_contact_icon"><img src="assets/vendors/onetech/images/phone_white.png" alt=""></div>+38 068 005 3570</div>
-                <div class="menu_contact_item"><div class="menu_contact_icon"><img src="assets/vendors/onetech/images/mail_white.png" alt=""></div><a href="mailto:fastsales@gmail.com">fastsales@gmail.com</a></div>
+                <div class="menu_contact_item">
+                  <div class="menu_contact_icon">
+                    <img src="assets/vendors/onetech/images/phone_white.png" alt="">
+                  </div>+38 068 005 3570</div>
+                <div class="menu_contact_item">
+                  <div class="menu_contact_icon">
+                    <img src="assets/vendors/onetech/images/mail_white.png" alt="">
+                  </div>
+                  <a href="mailto:fastsales@gmail.com">fastsales@gmail.com</a>
+                </div>
               </div>
             </div>
           </div>
@@ -294,21 +401,42 @@
         <div class="col-lg-3 footer_col">
           <div class="footer_column footer_contact">
             <div class="logo_container">
-              <div class="logo"><a href="#">Koperasi</a></div>
+              <div class="logo">
+                <a href="#">Koperasi</a>
+              </div>
             </div>
-            <div class="footer_title">Got Question? Call Us 24/7</div>
+            <div class="footer_title">Butuh Bantuan ? Hubungi Kami</div>
             <div class="footer_phone">+38 068 005 3570</div>
             <div class="footer_contact_text">
-              <p>17 Princess Road, London</p>
-              <p>Grester London NW18JR, UK</p>
+              <p>Lowokwaru Malang</p>
             </div>
             <div class="footer_social">
               <ul>
-                <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
-                <li><a href="#"><i class="fab fa-twitter"></i></a></li>
-                <li><a href="#"><i class="fab fa-youtube"></i></a></li>
-                <li><a href="#"><i class="fab fa-google"></i></a></li>
-                <li><a href="#"><i class="fab fa-vimeo-v"></i></a></li>
+                <li>
+                  <a href="#">
+                    <i class="fab fa-facebook-f"></i>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <i class="fab fa-twitter"></i>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <i class="fab fa-youtube"></i>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <i class="fab fa-google"></i>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <i class="fab fa-vimeo-v"></i>
+                  </a>
+                </li>
               </ul>
             </div>
           </div>
@@ -318,15 +446,27 @@
           <div class="footer_column">
             <div class="footer_title">Find it Fast</div>
             <ul class="footer_list">
-              <li><a href="#">Computers & Laptops</a></li>
-              <li><a href="#">Cameras & Photos</a></li>
-              <li><a href="#">Hardware</a></li>
-              <li><a href="#">Smartphones & Tablets</a></li>
-              <li><a href="#">TV & Audio</a></li>
+              <li>
+                <a href="#">Computers & Laptops</a>
+              </li>
+              <li>
+                <a href="#">Cameras & Photos</a>
+              </li>
+              <li>
+                <a href="#">Hardware</a>
+              </li>
+              <li>
+                <a href="#">Smartphones & Tablets</a>
+              </li>
+              <li>
+                <a href="#">TV & Audio</a>
+              </li>
             </ul>
             <div class="footer_subtitle">Gadgets</div>
             <ul class="footer_list">
-              <li><a href="#">Car Electronics</a></li>
+              <li>
+                <a href="#">Car Electronics</a>
+              </li>
             </ul>
           </div>
         </div>
@@ -334,11 +474,21 @@
         <div class="col-lg-2">
           <div class="footer_column">
             <ul class="footer_list footer_list_2">
-              <li><a href="#">Video Games & Consoles</a></li>
-              <li><a href="#">Accessories</a></li>
-              <li><a href="#">Cameras & Photos</a></li>
-              <li><a href="#">Hardware</a></li>
-              <li><a href="#">Computers & Laptops</a></li>
+              <li>
+                <a href="#">Video Games & Consoles</a>
+              </li>
+              <li>
+                <a href="#">Accessories</a>
+              </li>
+              <li>
+                <a href="#">Cameras & Photos</a>
+              </li>
+              <li>
+                <a href="#">Hardware</a>
+              </li>
+              <li>
+                <a href="#">Computers & Laptops</a>
+              </li>
             </ul>
           </div>
         </div>
@@ -347,13 +497,27 @@
           <div class="footer_column">
             <div class="footer_title">Customer Care</div>
             <ul class="footer_list">
-              <li><a href="#">My Account</a></li>
-              <li><a href="#">Order Tracking</a></li>
-              <li><a href="#">Wish List</a></li>
-              <li><a href="#">Customer Services</a></li>
-              <li><a href="#">Returns / Exchange</a></li>
-              <li><a href="#">FAQs</a></li>
-              <li><a href="#">Product Support</a></li>
+              <li>
+                <a href="#">My Account</a>
+              </li>
+              <li>
+                <a href="#">Order Tracking</a>
+              </li>
+              <li>
+                <a href="#">Wish List</a>
+              </li>
+              <li>
+                <a href="#">Customer Services</a>
+              </li>
+              <li>
+                <a href="#">Returns / Exchange</a>
+              </li>
+              <li>
+                <a href="#">FAQs</a>
+              </li>
+              <li>
+                <a href="#">Product Support</a>
+              </li>
             </ul>
           </div>
         </div>
@@ -361,29 +525,4 @@
       </div>
     </div>
   </footer>
-
-  <!-- Copyright -->
-  <div class="copyright">
-    <div class="container">
-      <div class="row">
-        <div class="col">
-
-          <div class="copyright_container d-flex flex-sm-row flex-column align-items-center justify-content-start">
-            <div class="copyright_content"><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-              Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="fa fa-heart" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
-              <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-            </div>
-            <div class="logos ml-sm-auto">
-              <ul class="logos_list">
-                <li><a href="#"><img src="assets/vendors/onetech/images/logos_1.png" alt=""></a></li>
-                <li><a href="#"><img src="assets/vendors/onetech/images/logos_2.png" alt=""></a></li>
-                <li><a href="#"><img src="assets/vendors/onetech/images/logos_3.png" alt=""></a></li>
-                <li><a href="#"><img src="assets/vendors/onetech/images/logos_4.png" alt=""></a></li>
-              </ul>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
 </div>
